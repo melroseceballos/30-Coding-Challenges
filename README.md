@@ -24,59 +24,59 @@
             <td rowspan="6" align="center">February 6, 2023</td>
             <td rowspan="6" align="center">February 13, 2023</td>
         </tr>
-        <tr><td><a href="./1. addOne.js">addOne</a></td></tr>
-        <tr><td><a href="./2. addTwoNumbers.js">addTwoNumbers</a></td></tr>
-        <tr><td><a href="./3. sumNumbers.js">sumNumbers</a></td></tr>
-        <tr><td><a href="./4. addList.js">addList</a></td></tr>
-        <tr><td><a href="./5. computeRemainder.js">computeRemainder</a></td></tr>
+        <tr><td><a href="./challenges/1. addOne.js">addOne</a></td></tr>
+        <tr><td><a href="./challenges/2. addTwoNumbers.js">addTwoNumbers</a></td></tr>
+        <tr><td><a href="./challenges/3. sumNumbers.js">sumNumbers</a></td></tr>
+        <tr><td><a href="./challenges/4. addList.js">addList</a></td></tr>
+        <tr><td><a href="./challenges/5. computeRemainder.js">computeRemainder</a></td></tr>
         <tr>
             <td rowspan="6" align="center">February 13, 2023</td>
             <td rowspan="6" align="center">February 21, 2023</td>
         </tr>
-        <tr><td><a href="./6. range.js">range</a></td></tr>
-        <tr><td><a href="./7. reverseUpcaseString.js">reverseUpcaseString</a></td></tr>
-        <tr><td><a href="./8. removeEnds.js">removeEnds</a></td></tr>
-        <tr><td><a href="./9. charCount.js">charCount</a></td></tr>
-        <tr><td><a href="./10. formatWithPadding.js">formatWithPadding</a></td></tr>
+        <tr><td><a href="./challenges/6. range.js">range</a></td></tr>
+        <tr><td><a href="./challenges/7. reverseUpcaseString.js">reverseUpcaseString</a></td></tr>
+        <tr><td><a href="./challenges/8. removeEnds.js">removeEnds</a></td></tr>
+        <tr><td><a href="./challenges/9. charCount.js">charCount</a></td></tr>
+        <tr><td><a href="./challenges/10. formatWithPadding.js">formatWithPadding</a></td></tr>
         <!-- UNIT 2 -->
         <tr>
             <td rowspan="12" align="center">Full-stack Development</td>
             <td rowspan="6" align="center">February 27, 2023</td>
             <td rowspan="6" align="center">March 6, 2023</td>
         </tr>
-        <tr><td><a href="./11. isPalindrome">isPalindrome</a></td></tr>
-        <tr><td><a href="./12. hammingDistance.js">hammingDistance</a></td></tr>
-        <tr><td><a href="./13. mumble.js">mumble</a></td></tr>
-        <tr><td><a href="./14. fromPairs.js">fromPairs</a></td></tr>
-        <tr><td><a href="./15. mergeObjects.js">mergeObjects</a></td></tr>
+        <tr><td><a href="./challenges/11. isPalindrome.js">isPalindrome</a></td></tr>
+        <tr><td><a href="./challenges/12. hammingDistance.js">hammingDistance</a></td></tr>
+        <tr><td><a href="./challenges/13. mumble.js">mumble</a></td></tr>
+        <tr><td><a href="./challenges/14. fromPairs.js">fromPairs</a></td></tr>
+        <tr><td><a href="./challenges/15. mergeObjects.js">mergeObjects</a></td></tr>
         <tr>
             <td rowspan="6" align="center">March 6, 2023</td>
             <td rowspan="6" align="center">March 13, 2023</td>
         </tr>
-        <tr><td><a href="./16. findHighestPriced.js">findHighestPriced</a></td></tr>
-        <tr><td><a href="./17. mapArray.js">mapArray</a></td></tr>
-        <tr><td><a href="./18. reduceArray.js">reduceArray</a></td></tr>
-        <tr><td><a href="./19. flatten.js">flatten</a></td></tr>
-        <tr><td><a href="./20. isPrime.js">isPrime</a></td></tr>
+        <tr><td><a href="./challenges/16. findHighestPriced.js">findHighestPriced</a></td></tr>
+        <tr><td><a href="./challenges/17. mapArray.js">mapArray</a></td></tr>
+        <tr><td><a href="./challenges/18. reduceArray.js">reduceArray</a></td></tr>
+        <tr><td><a href="./challenges/19. flatten.js">flatten</a></td></tr>
+        <tr><td><a href="./challenges/20. isPrime.js">isPrime</a></td></tr>
         <!-- UNIT 3 -->
         <tr>
             <td rowspan="12" align="center">Second Language & Web Framework</td>
             <td rowspan="6" align="center">March 13, 2023</td>
             <td rowspan="6" align="center">March 20, 2023</td>
         </tr>
-        <tr><td><a href="./21. primeFactors">primeFactors</a></td></tr>
-        <tr><td><a href="./22. intersection.js">intersection</a></td></tr>
-        <tr><td><a href="./23. balancedBrackets.js">balancedBrackets</a></td></tr>
-        <tr><td><a href="./24. isWinningTicket.js">isWinningTicket</a></td></tr>
-        <tr><td><a href="./25. getNumberForIP.js">getNumberForIP</a></td></tr>
+        <tr><td><a href="./challenges/21. primeFactors.js">primeFactors</a></td></tr>
+        <tr><td><a href="./challenges/22. intersection.js">intersection</a></td></tr>
+        <tr><td><a href="./challenges/23. balancedBrackets.js">balancedBrackets</a></td></tr>
+        <tr><td><a href="./challenges/24. isWinningTicket.js">isWinningTicket</a></td></tr>
+        <tr><td><a href="./challenges/25. getNumberForIP.js">getNumberForIP</a></td></tr>
         <tr>
             <td rowspan="6" align="center">March 20, 2023</td>
             <td rowspan="6" align="center">March 27, 2023</td>
         </tr>
-        <tr><td><a href="./26. toCamelCase.js">toCamelCase</a></td></tr>
-        <tr><td><a href="./27. countTheBits.js">countTheBits</a></td></tr>
-        <tr><td><a href="./28. gridTrip.js">gridTrip</a></td></tr>
-        <tr><td><a href="./29. addChecker.js">addChecker</a></td></tr>
-        <tr><td><a href="./30. totalTaskTime.js">totalTaskTime</a></td></tr>
+        <tr><td><a href="./challenges/26. toCamelCase.js">toCamelCase</a></td></tr>
+        <tr><td><a href="./challenges/27. countTheBits.js">countTheBits</a></td></tr>
+        <tr><td><a href="./challenges/28. gridTrip.js">gridTrip</a></td></tr>
+        <tr><td><a href="./challenges/29. addChecker.js">addChecker</a></td></tr>
+        <tr><td><a href="./challenges/30. totalTaskTime.js">totalTaskTime</a></td></tr>
     </tbody>
 </table>
