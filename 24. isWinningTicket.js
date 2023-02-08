@@ -16,3 +16,28 @@ isWinningTicket( [ ['ABC', 66], ['dddd', 100], ['Hello', 108] ] ) // => true
 isWinningTicket( [ ['ABC', 66], ['dddd', 15], ['Hello', 108] ] ) // => false
 -----------------------------------------------------------------*/
 // Your solution for 24-isWinningTicket here:
+
+/* Naive approach using for loops - :( */
+function isWinningTicket(ticket) {
+    let winner = true;
+    for (let i = 0; i < ticket.length; i++) {
+        let charFromNumber = String.fromCharCode(ticket[i][1]);
+        if (!ticket[i][0].includes(charFromNumber)) {
+            winner = false;
+            break;
+        }
+    }
+    return winner;
+}
+
+/* Array.prototype.every is sweet */
+// function isWinningTicket(ticket){
+//   return ticket.every(function(arr) {
+//     return arr[0].includes(String.fromCharCode(arr[1]));
+//   });
+// }
+
+/* Arrow functions help make concise one-liners possible */
+// function isWinningTicket(ticket){
+//   return ticket.every(arr => arr[0].includes(String.fromCharCode(arr[1])));
+// }

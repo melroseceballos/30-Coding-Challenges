@@ -23,3 +23,11 @@ reduceArray( ['Yes', 'No', 'Yes', 'Maybe'], function(acc, v) {
 //=> {"Yes": 2, "No": 1, "Maybe": 1}
 -----------------------------------------------------------------*/
 // Your solution for 18-reduceArray here:
+
+function reduceArray(arr, cb, initAcc) {
+  let acc = initAcc;
+  arr.forEach(function (el, idx) {
+    acc = cb(acc, el, idx);
+  });
+  return acc;
+}

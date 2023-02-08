@@ -13,3 +13,14 @@ toCamelCase( 'Mama-mia' ) // => 'MamaMia'
 toCamelCase( 'A_b_c' ) // => 'ABC'
 -----------------------------------------------------------------*/
 // Your solution for 26-toCamelCase here:
+
+function toCamelCase(str) {
+    return str.replace(/[_-]\w/g, function (match) {
+        return match.charAt(1).toUpperCase();
+    });
+}
+
+/* Take advantage of the implicit return of an arrow function for a one-line solution */
+// function toCamelCase(str) {
+//   return str.replace(/[_-]\w/g, match => match.charAt(1).toUpperCase());
+// }

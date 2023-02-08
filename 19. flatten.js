@@ -16,3 +16,24 @@ flatten( [1, [2, [3, [4]]], 1, 'a', ['b', 'c']] );
 //=> [1, 2, 3, 4, 1, 'a', 'b', 'c']
 -----------------------------------------------------------------*/
 // Your solution for 19-flatten here:
+
+/*--- Using recursion ---*/
+function flatten(arr) {
+    let flatArr = [];
+    arr.forEach(function (elem) {
+        // use the Array.isArray static method to test if an array
+        if (Array.isArray(elem)) {
+            // recursion coming up!
+            flatArr = flatArr.concat(flatten(elem));
+        } else {
+            flatArr.push(elem);
+        }
+    });
+    return flatArr;
+}
+
+/*--- Using the fresh Array.prototype.flat method ---*/
+// function flatten(arr) {
+//   // The 99 is a depth factor
+//   return arr.flat(99);
+// }

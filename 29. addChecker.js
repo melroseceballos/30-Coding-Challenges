@@ -16,3 +16,27 @@ addChecker( [10, 15, 16, 22], 32 ) // => true
 addChecker( [10, 15, 16, 22], 19 ) // => false
 -----------------------------------------------------------------*/
 // Your solution for 29-addChecker here:
+
+/* inefficent solution - does not leverage sorted array */
+function addChecker(nums, total) {
+    let result = false;
+    for (let i = 0; i < nums.length - 1; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] + nums[j] === total) return true;
+        }
+    }
+    return result;
+}
+
+/* efficent solution - leveraging the sorted array */
+// function addChecker(nums, total) {
+//   let result = false;
+//   let start = 0
+//   let end = nums.length - 1; 
+//   while (start < end) {
+//     let sum = nums[start] + nums[end];
+//     if (sum === total) return true;
+//     sum < total ? start++ : end--;
+//   }
+//   return result;
+// }

@@ -10,3 +10,20 @@ fromPairs([ ['a', 1], ['b', 2], ['c', 3] ]) //=> { a: 1, b: 2, c: 3 }
 fromPairs([ ['name', 'Sam"], ['age', 24], ['name', 'Sally'] ]) //=> { name: "Sally", age: 24 }
 -----------------------------------------------------------------*/
 // Your solution for 14-fromPairs here:
+
+/*--- using forEach ---*/
+function fromPairs(arr) {
+    let obj = {};
+    arr.forEach(function (kvArr) {
+        obj[kvArr[0]] = kvArr[1];
+    });
+    return obj;
+}
+
+/*--- using reduce & arrow function ---*/
+// function fromPairs(arr) {
+//   return arr.reduce((obj, kvArr) => {
+//       obj[kvArr[0]] = kvArr[1];
+//       return obj;
+//   }, {});
+// }

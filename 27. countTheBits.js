@@ -16,3 +16,12 @@ countTheBits( 255 ) //=> 8
 countTheBits( 65535 )  //=> 16
 -----------------------------------------------------------------*/
 // Your solution for 27-countTheBits here:
+
+function countTheBits(int) {
+    return int.toString(2).split('').filter(bit => bit === '1').length;
+}
+
+/* Using a regular expression. Note || operator to provide an array so that can use length if there are no matches */
+// function countTheBits(int) {
+//   return (int.toString(2).match(/1/g) || []).length;
+// }

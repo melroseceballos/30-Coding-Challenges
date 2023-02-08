@@ -11,3 +11,11 @@ addTwoNumbers(0, 0) //=> 0
 addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
+
+function addTwoNumbers(a, b) {
+    if (typeof a === 'number' && typeof b === 'number') {
+        return a + b;
+    } else {
+        return NaN;
+    }
+}

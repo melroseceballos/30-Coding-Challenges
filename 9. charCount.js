@@ -11,3 +11,26 @@ charCount('hello') //=> { h: 1, e: 1, l: 2, o: 1 }
 charCount('Today is fantastic!') //=> { T: 1, o: 1, d: 1, a: 3, y: 1, ' ': 2, i: 2, s: 2, f: 1, n: 1, t: 2, c: 1, '!': 1 }
 -----------------------------------------------------------------*/
 // Your solution for 09-charCount here:
+
+/*--- convert str to array and use reduce with a ternary ---*/
+// function charCount(str) {
+//   return str.split('').reduce(function(countObj, char) {
+//     countObj[char] = countObj[char] ? ++countObj[char] : 1;
+//     return countObj;
+//   }, {});
+// }
+
+/*--- using a for loop ---*/
+function charCount(str) {
+    let result = {};
+    for (let i = 0; i < str.length; i++) {
+        let char = str.charAt(i);
+        // already seen this char?
+        if (result[char]) {
+            result[char]++;
+        } else {
+            result[char] = 1;
+        }
+    }
+    return result;
+}

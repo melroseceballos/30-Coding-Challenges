@@ -25,3 +25,28 @@ findHighestPriced([
 //=> { sku: 'b2', price: 50 }
 -----------------------------------------------------------------*/
 // Your solution for 16-findHighestPriced here:
+
+function findHighestPriced(arr) {
+  let highestPrice = 0;
+  let resultObj;
+  arr.forEach(function (item) {
+    if (item.price > highestPrice) {
+      highestPrice = item.price;
+      resultObj = item;
+    }
+  });
+  return resultObj;
+}
+
+/*--- using the reduce Array method ---*/
+// function findHighestPriced(arr) {
+//   return arr.reduce((highest, item) => item.price > highest.price ? item : highest);
+// }
+
+/*--- using the sort Array method on a Copy to avoid mutating the source array ---*/
+
+// function findHighestPriced(arr) {
+//   const copy = [...arr];
+//   copy.sort((a, b) => b.price - a.price);
+//   return copy[0];
+// }

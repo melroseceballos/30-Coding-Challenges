@@ -12,3 +12,15 @@ computeRemainder(4,0) //=> Infinity
 computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------*/
 // Your solution for 05-computeRemainder:
+
+/*--- Not using the modulus operator ---*/
+function computeRemainder(dividend, divisor) {
+    if (divisor === 0) return Infinity;
+    return dividend - (Math.floor(dividend / divisor) * divisor);
+}
+
+/*--- Using the modulus operator ---*/
+// function computeRemainder(dividend, divisor) {
+//   if (divisor === 0) return Infinity;
+//   return dividend % divisor;
+// }

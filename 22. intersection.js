@@ -13,3 +13,14 @@ intersection(['a', 1], [true, 'a', 15]) //=> ['a']
 intersection([1, 'a', true, 1, 1], [true, 1, 'b', 1]) //=> [1, true, 1]
 -----------------------------------------------------------------*/
 // Your solution for 22-intersection here:
+
+function intersection(a1, a2) {
+    let result = [];
+    // create copy of 2nd array for purpose of handling dups
+    let _a2 = [...a2];
+    a1.forEach(val => {
+        let idx = _a2.indexOf(val);
+        if (idx > -1) result.push(_a2.splice(idx, 1)[0]);
+    });
+    return result;
+}
