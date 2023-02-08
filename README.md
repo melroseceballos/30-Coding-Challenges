@@ -18,6 +18,7 @@
         </tr>
     </thead>
     <tbody>
+        <!-- UNIT 1 -->
         <tr>
             <td rowspan="12" align="center">Fundamentals of Front-end Development</td>
             <td rowspan="6" align="center">February 6, 2023</td>
@@ -37,5 +38,25 @@
         <tr><td><a href="./8. removeEnds.js">removeEnds</a></td></tr>
         <tr><td><a href="./9. charCount.js">charCount</a></td></tr>
         <tr><td><a href="./10. formatWithPadding.js">formatWithPadding</a></td></tr>
+        <!-- UNIT 2 -->
+        <tr>
+            <td rowspan="12" align="center">Fundamentals of Front-end Development</td>
+            <td rowspan="6" align="center">February 6, 2023</td>
+            <td rowspan="6" align="center">February 13, 2023</td>
+        </tr>
+        <tr><td><a href="./11. isPalindrome">isPalindrome</a></td></tr>
+        <tr><td><a href="./12. hammingDistance.js">hammingDistance</a></td></tr>
+        <tr><td><a href="./13. mumble.js">mumble</a></td></tr>
+        <tr><td><a href="./14. fromPairs.js">fromPairs</a></td></tr>
+        <tr><td><a href="./15. mergeObjects.js">mergeObjects</a></td></tr>
+        <tr>
+            <td rowspan="6" align="center">February 13, 2023</td>
+            <td rowspan="6" align="center">February 20, 2023</td>
+        </tr>
+        <tr><td><a href="./16. findHighestPriced.js">findHighestPriced</a></td></tr>
+        <tr><td><a href="./17. mapArray.js">mapArray</a></td></tr>
+        <tr><td><a href="./18. reduceArray.js">reduceArray</a></td></tr>
+        <tr><td><a href="./19. flatten.js">flatten</a></td></tr>
+        <tr><td><a href="./20. isPrime.js">isPrime</a></td></tr>
     </tbody>
 </table>
