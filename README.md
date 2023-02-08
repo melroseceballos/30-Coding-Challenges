@@ -31,7 +31,7 @@
         <tr><td><a href="./5. computeRemainder.js">computeRemainder</a></td></tr>
         <tr>
             <td rowspan="6" align="center">February 13, 2023</td>
-            <td rowspan="6" align="center">February 20, 2023</td>
+            <td rowspan="6" align="center">February 21, 2023</td>
         </tr>
         <tr><td><a href="./6. range.js">range</a></td></tr>
         <tr><td><a href="./7. reverseUpcaseString.js">reverseUpcaseString</a></td></tr>
@@ -41,8 +41,8 @@
         <!-- UNIT 2 -->
         <tr>
             <td rowspan="12" align="center">Full-stack Development</td>
-            <td rowspan="6" align="center">February 6, 2023</td>
-            <td rowspan="6" align="center">February 13, 2023</td>
+            <td rowspan="6" align="center">February 27, 2023</td>
+            <td rowspan="6" align="center">March 6, 2023</td>
         </tr>
         <tr><td><a href="./11. isPalindrome">isPalindrome</a></td></tr>
         <tr><td><a href="./12. hammingDistance.js">hammingDistance</a></td></tr>
@@ -50,8 +50,8 @@
         <tr><td><a href="./14. fromPairs.js">fromPairs</a></td></tr>
         <tr><td><a href="./15. mergeObjects.js">mergeObjects</a></td></tr>
         <tr>
-            <td rowspan="6" align="center">February 13, 2023</td>
-            <td rowspan="6" align="center">February 20, 2023</td>
+            <td rowspan="6" align="center">March 6, 2023</td>
+            <td rowspan="6" align="center">March 13, 2023</td>
         </tr>
         <tr><td><a href="./16. findHighestPriced.js">findHighestPriced</a></td></tr>
         <tr><td><a href="./17. mapArray.js">mapArray</a></td></tr>
