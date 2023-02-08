@@ -58,5 +58,25 @@
         <tr><td><a href="./18. reduceArray.js">reduceArray</a></td></tr>
         <tr><td><a href="./19. flatten.js">flatten</a></td></tr>
         <tr><td><a href="./20. isPrime.js">isPrime</a></td></tr>
+        <!-- UNIT 3 -->
+        <tr>
+            <td rowspan="12" align="center">Second Language & Web Framework</td>
+            <td rowspan="6" align="center">March 13, 2023</td>
+            <td rowspan="6" align="center">March 20, 2023</td>
+        </tr>
+        <tr><td><a href="./21. primeFactors">primeFactors</a></td></tr>
+        <tr><td><a href="./22. intersection.js">intersection</a></td></tr>
+        <tr><td><a href="./23. balancedBrackets.js">balancedBrackets</a></td></tr>
+        <tr><td><a href="./24. isWinningTicket.js">isWinningTicket</a></td></tr>
+        <tr><td><a href="./25. getNumberForIP.js">getNumberForIP</a></td></tr>
+        <tr>
+            <td rowspan="6" align="center">March 20, 2023</td>
+            <td rowspan="6" align="center">March 27, 2023</td>
+        </tr>
+        <tr><td><a href="./26. toCamelCase.js">toCamelCase</a></td></tr>
+        <tr><td><a href="./27. countTheBits.js">countTheBits</a></td></tr>
+        <tr><td><a href="./28. gridTrip.js">gridTrip</a></td></tr>
+        <tr><td><a href="./29. addChecker.js">addChecker</a></td></tr>
+        <tr><td><a href="./30. totalTaskTime.js">totalTaskTime</a></td></tr>
     </tbody>
 </table>
