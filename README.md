@@ -40,7 +40,7 @@
         <tr><td><a href="./10. formatWithPadding.js">formatWithPadding</a></td></tr>
         <!-- UNIT 2 -->
         <tr>
-            <td rowspan="12" align="center">Fundamentals of Front-end Development</td>
+            <td rowspan="12" align="center">Full-stack Development</td>
             <td rowspan="6" align="center">February 6, 2023</td>
             <td rowspan="6" align="center">February 13, 2023</td>
         </tr>
