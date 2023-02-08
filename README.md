@@ -27,15 +27,15 @@
         <tr><td><a href="./2. addTwoNumbers.js">addTwoNumbers</a></td></tr>
         <tr><td><a href="./3. sumNumbers.js">sumNumbers</a></td></tr>
         <tr><td><a href="./4. addList.js">addList</a></td></tr>
-        <tr><td><a href="./5. computeRemainder.js">computeRemainder.js</a></td></tr>
+        <tr><td><a href="./5. computeRemainder.js">computeRemainder</a></td></tr>
         <tr>
             <td rowspan="6" align="center">February 13, 2023</td>
             <td rowspan="6" align="center">February 20, 2023</td>
         </tr>
-        <tr><td><a href="./6. range.js">range.js</a></td></tr>
-        <tr><td><a href="./7. reverseUpcaseString.js">reverseUpcaseString.js</a></td></tr>
-        <tr><td><a href="./8. removeEnds.js">removeEnds.js</a></td></tr>
-        <tr><td><a href="./9. charCount.js">charCount.js</a></td></tr>
-        <tr><td><a href="./10. formatWithPadding.js">formatWithPadding.js</a></td></tr>
+        <tr><td><a href="./6. range.js">range</a></td></tr>
+        <tr><td><a href="./7. reverseUpcaseString.js">reverseUpcaseString</a></td></tr>
+        <tr><td><a href="./8. removeEnds.js">removeEnds</a></td></tr>
+        <tr><td><a href="./9. charCount.js">charCount</a></td></tr>
+        <tr><td><a href="./10. formatWithPadding.js">formatWithPadding</a></td></tr>
     </tbody>
 </table>
