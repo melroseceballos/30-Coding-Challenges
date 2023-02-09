@@ -1,9 +1,11 @@
 # Daily Coding Challenges
 
 ## Expectations
+- Fork this repository to your GitHub Enterprise account
+- Clone your forked repo to your local machine
 - There are 30 challenges - one for each day during units 1 thru 3, excluding project weeks.
 - The difficulty starts off very easy and ramps up to medium (hard for many students though).
-- At the start of each week you will create a pull request and submit your solutions to the 5 coding challenges assigned the previous week.
+- At the start of each week you will create a pull request and submit your solutions to the 5 coding challenges assigned the previous week. Your pull request could look like this _Scott Draper - Week 1_
 - There is a `solutions` branch to this repository, but try your best to solve the challenge on your own first! These are meant for your personal growth.
 
 
