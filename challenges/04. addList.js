@@ -13,3 +13,16 @@ add(7, -12) //=> -5
 Hint:  Check out the Further Study section of the JS Functions lesson regarding "rest parameters"
 -----------------------------------------------------------------*/
 // Your solution for 04-addList here:
+function addList() {
+    let sum = 0
+    for (let i = 0; i < arguments.length; i++) {
+      sum += arguments[i];
+    }
+    console.log(sum)
+    return sum;
+  }
+  addList(3, 4, 7); 
+  addList(3, 4, 7, 10, 20); 
+  addList(3, 4, 4, 8); 
+  addList();
+  
