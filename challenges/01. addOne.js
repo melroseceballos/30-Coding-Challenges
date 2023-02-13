@@ -8,3 +8,7 @@ addOne(1) //=> 2
 addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
+function addOne (num){
+    return num++
+    }
+    console.log(addOne(5));
