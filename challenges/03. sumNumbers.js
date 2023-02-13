@@ -11,3 +11,12 @@ sumNumbers([2, 10, -5]) //=> 7
 sumNumbers([]) //=> 0
 -----------------------------------------------------------------*/
 // Your solution for 03-sumNumbers here:
+function sumNumbers(arr){
+    let sum= 0;
+    for(let i=0; i<arr.length; i++){
+    sum = sum + arr[i]
+    }
+    console.log(sum)
+    }
+    sumNumbers([23,12,233,1231,12312])
+    
