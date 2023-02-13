@@ -12,3 +12,13 @@ computeRemainder(4,0) //=> Infinity
 computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------*/
 // Your solution for 05-computeRemainder:
+function computeRemainder (a,b){
+    if( a/b){
+        return (a % b)
+    }else if( a || b === 0){
+        return "Infinity";
+    }
+}
+console.log(computeRemainder(2,4));
+console.log(computeRemainder(2,0));
+console.log(computeRemainder(10.5, 3));
