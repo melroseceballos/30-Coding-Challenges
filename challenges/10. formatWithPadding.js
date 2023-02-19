@@ -15,11 +15,10 @@ formatWithPadding(1234, '*', 3); //=> "1234"
 -----------------------------------------------------------------*/
 // Your solution for 10-formatWithPadding here:
 function formatWithPadding (num,str,num2){
-  num = num + " ";
-while (num.length < num2){
-  num = str + num;
+ while (num2>num.length){
+  num = str + num
 }
-return num;
+return num.toString();
 }
 
 console.log(formatWithPadding(123,'0', 5));
