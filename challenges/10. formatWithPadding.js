@@ -14,3 +14,14 @@ formatWithPadding(42, '*', 10); //=> "********42"
 formatWithPadding(1234, '*', 3); //=> "1234"
 -----------------------------------------------------------------*/
 // Your solution for 10-formatWithPadding here:
+function formatWithPadding (num,str,num2){
+  num = num + " ";
+while (num.length < num2){
+  num = str + num;
+}
+return num;
+}
+
+console.log(formatWithPadding(123,'0', 5));
+console.log(formatWithPadding(42, '*', 10));
+console.log(formatWithPadding(1234, '*', 3));
