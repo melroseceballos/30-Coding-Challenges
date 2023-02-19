@@ -9,3 +9,8 @@ removeEnds('SEI Rocks!'); //=> "EI Rocks"
 removeEnds('a'); //=> "" (empty string)
 -----------------------------------------------------------------*/
 // Your solution for 08-removeEnds here:
+function removeEnds (str){
+    return str.slice(1, str.length -1)
+}
+console.log(removeEnds('SEI Rocks!'));
+console.log(removeEnds('a'));
