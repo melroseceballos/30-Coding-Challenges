@@ -24,3 +24,5 @@ return num.toString();
 console.log(formatWithPadding(123,'0', 5));
 console.log(formatWithPadding(42, '*', 10));
 console.log(formatWithPadding(1234, '*', 3));
+
+//Ask steven how to add "" infront of string

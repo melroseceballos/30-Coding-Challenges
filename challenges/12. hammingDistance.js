@@ -13,3 +13,15 @@ hammingDistance('!!!!', '****'); //=> 4
 hammingDistance('abc', 'ab'); //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 12-hammingDistance here:
+function hammingDistance (a,b){
+    let count = 0;
+    for(let i = 0; i < a.length; i++){
+        if(a.length !== b.length){
+            count
+        }
+    } if(a.length !== b.length){
+        return NaN
+    }
+}
+console.log(hammingDistance('!!!!', '****'));
+console.log(hammingDistance('abc', 'ab'));

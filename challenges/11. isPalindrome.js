@@ -13,3 +13,11 @@ isPalindrome('A nut for a jar of tuna'); //=> true
 isPalindrome(''); //=> true
 -----------------------------------------------------------------*/
 // Your solution for 11-isPalindrome here:
+function isPalindrome (str){
+   return str === str.split('').reverse().join('') || str.length < 1
+}
+
+console.log(isPalindrome('SEI Rocks'))
+console.log(isPalindrome('rotor'))
+console.log(isPalindrome('A nut for a jar of tuna'))
+console.log(isPalindrome(''))
