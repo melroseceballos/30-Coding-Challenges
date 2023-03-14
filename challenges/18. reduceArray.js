@@ -23,3 +23,16 @@ reduceArray( ['Yes', 'No', 'Yes', 'Maybe'], function(acc, v) {
 //=> {"Yes": 2, "No": 1, "Maybe": 1}
 -----------------------------------------------------------------*/
 // Your solution for 18-reduceArray here:
+function reduceArray (arr,callback,init){
+  let accumulator = init;
+  for(let i=0; i<arr.length; i++){
+    accumulator = callback(accumulator,arr[i],i)
+  }
+  return accumulator;
+}
+
+// test
+reduceArray( ['Yes', 'No', 'Yes', 'Maybe'], function(acc, v) {
+  acc[v] = acc[v] ? acc[v] + 1 : 1;
+  return acc;
+}, {} );
