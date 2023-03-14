@@ -10,3 +10,13 @@ mergeObjects({a: 1, b: 2, c: 3}, {d: 4});  //=> {a: 1, b: 2, c: 3, d: 4}
 mergeObjects({a: 1, b: 2, c: 3}, {d: 4}, {b: 22, d: 44});  //=> {a: 1, b: 22, c: 3, d: 44}
 -----------------------------------------------------------------*/
 // Your solution for 15-mergeObjects here:
+function mergeObjects(obj1, ...objs) {
+    for (const obj of objs) {
+      for (const [key, value] of Object.entries(obj)) {
+        obj1[key] = value;
+      }
+    }
+    return obj1;
+  }
+  console.log(mergeObjects({a: 1, b: 2, c: 3}, {d: 4}));
+  console.log(mergeObjects({a: 1, b: 2, c: 3}, {d: 4}, {b: 22, d: 44}));

@@ -25,3 +25,17 @@ findHighestPriced([
 //=> { sku: 'b2', price: 50 }
 -----------------------------------------------------------------*/
 // Your solution for 16-findHighestPriced here:
+function findHighestPriced (obj){
+  let highestPrice = obj[0];
+  for(let i=1; i<obj.length; i++)  {
+    if(obj[i].price > highestPrice.price){
+      highestPrice = obj[i]
+    }
+  }
+  return highestPrice
+}
+console.log (findHighestPriced([
+  { sku: 'a1', price: 25 },
+  { sku: 'b2', price: 5 },
+  { sku: 'c3', price: 50 },
+  { sku: 'd4', price: 10 }]))
