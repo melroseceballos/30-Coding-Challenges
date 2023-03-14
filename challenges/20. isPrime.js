@@ -12,3 +12,20 @@ isPrime(29) //=> true
 isPrime(200) //=> false
 -----------------------------------------------------------------*/
 // Your solution for 20-isPrime here:
+function isPrime(num){
+ if(num < 1){
+    return false
+ }
+ for(let i = 2; i <num; i++){
+    if(num % i === 0){
+        return false
+    }
+    }
+    return true
+ }
+ 
+console.log(isPrime(200));
+console.log(isPrime(2));
+console.log(isPrime(3));
+console.log(isPrime(4));
+console.log(isPrime(29));
