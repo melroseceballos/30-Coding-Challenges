@@ -13,3 +13,18 @@ intersection(['a', 1], [true, 'a', 15]) //=> ['a']
 intersection([1, 'a', true, 1, 1], [true, 1, 'b', 1]) //=> [1, true, 1]
 -----------------------------------------------------------------*/
 // Your solution for 22-intersection here:
+
+function intersection (arr,array){
+    let result = []
+    for (let i = 0; i<arr.length; i++){
+        const value = arr[i];
+        if (array.includes(value) && !result.includes(value)) {
+            result.push(value);
+    }
+}
+return result;
+}
+
+console.log(intersection(['a', 1], [])); // []
+console.log(intersection(['a', 1], [true, 'a', 15])); // ['a']
+console.log(intersection([1, 'a', true, 1, 1], [true, 1, 'b', 1])); // [1, true, 1]
