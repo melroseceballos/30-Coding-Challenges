@@ -16,3 +16,24 @@ isWinningTicket( [ ['ABC', 66], ['dddd', 100], ['Hello', 108] ] ) // => true
 isWinningTicket( [ ['ABC', 66], ['dddd', 15], ['Hello', 108] ] ) // => false
 -----------------------------------------------------------------*/
 // Your solution for 24-isWinningTicket here:
+function isWinningTicket(ticket) {
+    for (let i = 0; i < ticket.length; i++) {
+      const [str, num] = ticket[i];
+      let found = false;
+      for (let j = 0; j < str.length; j++) {
+        if (str.charCodeAt(j) === num) {
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        return false;
+      }
+    }
+    return true;
+  }
+  
+console.log(isWinningTicket( [ ['ABC', 65] ] )) // => true
+console.log(isWinningTicket( [ ['ABC', 999], ['XY', 89] ] )) // => false
+console.log(isWinningTicket( [ ['ABC', 66], ['dddd', 100], ['Hello', 108] ] )) // => true
+console.log(isWinningTicket( [ ['ABC', 66], ['dddd', 15], ['Hello', 108] ] )) // => false
