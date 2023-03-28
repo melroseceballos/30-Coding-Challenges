@@ -16,3 +16,17 @@ getNumForIP( '192.156.99.15' ) // => 3231474447
 getNumForIP( '10.0.0.1' ) // => 167772161
 -----------------------------------------------------------------*/
 // Your solution for 25-getNumForIP here:
+
+function getNumForIP(ipAddress) {
+    const octets = ipAddress.split('.'); // split the IP address into its 4 octets
+    let num = 0;
+    for (let i = 0; i < octets.length; i++) {
+      num += parseInt(octets[i]) * Math.pow(256, 3 - i); // calculate the numeric value of each octet
+    }
+    return num;
+  }
+  
+console.log(getNumForIP( '0.0.0.1' )) // => 1
+console.log(getNumForIP( '0.0.2.0' )) // => 512
+console.log(getNumForIP( '192.156.99.15' )) // => 3231474447
+console.log(getNumForIP( '10.0.0.1' )) // => 167772161
