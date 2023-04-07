@@ -23,4 +23,3 @@ function countTheBits(num) {
   console.log(countTheBits( 13 )) // => 3
   console.log(countTheBits( 256 )) // => 1
   console.log(countTheBits( 255 )) //=> 8
-  console.log(countTheBits( 65535 ))  //=> 16
