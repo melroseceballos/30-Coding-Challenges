@@ -19,3 +19,22 @@ totalTaskTime( [2, 2, 3, 3, 4, 4], 2 ) //=> 9
 totalTaskTime( [5, 2, 6, 8, 7, 2], 3 ) // => 12
 -----------------------------------------------------------------*/
 // Your solution for 30- here:
+function totalTaskTime(queue, threads) {
+    if (queue.length === 0) {
+      return 0;
+    }
+    const threadCompletionTimes = new Array(threads).fill(0);
+
+    for (let i = 0; i < queue.length; i++) {
+        const smallestThreadIndex = threadCompletionTimes.indexOf(
+            Math.min(...threadCompletionTimes)
+          );
+          threadCompletionTimes[smallestThreadIndex] += queue[i];
+  }
+  return Math.max(...threadCompletionTimes);
+}
+console.log(totalTaskTime( [4, 2, 5], 1 )) // => 11
+console.log(totalTaskTime( [5, 8], 2 )) // => 8
+console.log(totalTaskTime( [4, 2, 10], 2 )) // => 12
+console.log(totalTaskTime( [2, 2, 3, 3, 4, 4], 2 )) //=> 9
+console.log(totalTaskTime( [5, 2, 6, 8, 7, 2], 3 )) // => 12
