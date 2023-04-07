@@ -15,3 +15,28 @@ gridTrip( [5, 10], 'D5L15U2' ) //-> [2, -5]
 gridTrip( [-22, 100], 'L2L15D50U1D9') //=> [-80, 83]
 -----------------------------------------------------------------*/
 // Your solution for 28-gridTrip here:
+function gridTrip(startPos, moves) {
+    let [x, y] = startPos;
+    const regex = /[UDLR]\d+/g;
+    const movesArray = moves.match(regex);
+    
+    for (let move of movesArray) {
+      const direction = move[0];
+      const distance = Number(move.slice(1));
+      
+      if (direction === 'U') {
+        x += distance;
+      } else if (direction === 'D') {
+        x -= distance;
+      } else if (direction === 'R') {
+        y += distance;
+      } else if (direction === 'L') {
+        y -= distance;
+      }
+    }
+    
+    return [x, y];
+  }
+console.log(gridTrip( [0, 0], 'U2R1' )) // => [2, 1]
+console.log(gridTrip( [5, 10], 'D5L15U2' )) //-> [2, -5]
+console.log(gridTrip( [-22, 100], 'L2L15D50U1D9')) //=> [-80, 83]
